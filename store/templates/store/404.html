@@ -1,0 +1,16 @@
+{% extends 'store/main.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<div class = "text-2xl">
+    <p class="text-center">404 Pagina negasita</p>
+
+    <p>Aceasta pagina nu exista, revino la pagina initiala</p>
+
+    <a href="{% url 'store' %}" class="btn text-2xl  btn-outline-secondary rounded-lg p-2 text-center bg-gradient-to-r from-blue-500 to-purple-600 text-white hover:bg-gradient-to-r hover:from-blue-400 hover:to-purple-500">Inapoi la cumparaturi</a>
+
+</div>
+
+{%endblock content%}
